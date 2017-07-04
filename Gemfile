@@ -5,13 +5,15 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+# Added 4/7/17
+gem 'rspec-rails'
 #Added on 4/7/2017
 gem 'record_tag_helper', '~> 1.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.2'
-# Use sqlite3 as the database for Active Record, in dev and test only
+# Edited 4/7/17 Use sqlite3 as the database for Active Record, in dev and test only
 gem 'sqlite3', group: [:development, :test]
-# let rails know we will be using Postgres in production
+# Added 4/7/17 let rails know we will be using Postgres in production
 gem 'pg', group: :production
 # Use Puma as the app server
 gem 'puma', '~> 3.7'

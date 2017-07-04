@@ -1,6 +1,6 @@
+# app/models/post.rb
 class Post < ApplicationRecord
-	validates_presence_of :body, :title
-	has_many :comments
+  has_many :comments
 
+  validates_presence_of :body, :title
 end
-
