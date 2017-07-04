@@ -7,6 +7,9 @@ end
 
 # Added 4/7/17
 gem 'rspec-rails'
+group :test do
+  gem 'capybara'
+end
 #Added on 4/7/2017
 gem 'record_tag_helper', '~> 1.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
